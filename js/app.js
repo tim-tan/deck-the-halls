@@ -11,7 +11,7 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
 let flakeCount = 9999
-let fakeGeometry = new THREE.TetrahedronGeometry(0.027) // radius
+let flakeGeometry = new THREE.TetrahedronGeometry(0.027) // radius
 let flakeMaterial = new THREE.MeshPhongMaterial({ color: 0xffffff })
 
 let snow = new THREE.Group()
