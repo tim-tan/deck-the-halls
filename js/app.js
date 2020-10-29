@@ -10,7 +10,7 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 
 document.body.appendChild(renderer.domElement)
 
-let flakeCount = 9999
+let flakeCount = 8000
 let flakeGeometry = new THREE.TetrahedronGeometry(0.027) // radius
 let flakeMaterial = new THREE.MeshPhongMaterial({ color: 0xffffff })
 
